@@ -1,0 +1,7 @@
+: This MATLAB tool provides a complete solution for converting between the four primary rotation representations used in aerospace engineering, robotics, and 3D graphics:
+Euler angles, quaternions, Direction Cosine Matrices (DCM), and axis-angle parameters. 
+The interactive command-line interface guides users through selecting their input type, entering rotation data, 
+and choosing the desired output format, with intelligent handling of unit conversions between degrees and radians.
+The tool implements mathematically rigorous conversion algorithms with built-in numerical stability features, such as adaptive switching in the DCM-to-quaternion conversion to avoid computational errors. 
+All conversions are performed through optimized direct-path functions rather than chaining multiple intermediate transformations, ensuring both accuracy and efficiency. 
+The code follows aerospace conventions including the scalar-last quaternion format and the roll-pitch-yaw Euler angle sequence, making it immediately compatible with standard navigation and control systems.
